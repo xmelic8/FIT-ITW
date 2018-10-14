@@ -1,0 +1,440 @@
+body {
+      font-family: Tahoma, Verdana, Arial, sans-serif;
+      margin: 0px; 
+      font-size: 11pt;
+     }
+
+#background {
+             min-height: 1000px;
+             min-width: 1150px;
+             background: #0082C5;
+             margin: 0px;
+             padding-top: 80px;
+             padding-bottom: 25px;
+            }
+ 
+#width {
+        width: 960px;
+        min-height: 750px;        
+        margin: auto;
+        padding-bottom: 5ex;
+        background: white;
+        border-width: 3px;
+        border-bottom-width: 0px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20pt 20pt 0pt 0pt;
+       }
+       
+#zahlavi {
+          background-color: rgb(151,151,151);
+          width: 960px;
+          height: 3.5em;
+          margin: auto;
+          padding-right: 0px;
+          padding-top: 0.7ex;
+          padding-left: 0px;
+          padding-bottom: 0.7ex;
+          border: 3px;
+          border-top-width: 0px;
+          border-style: solid;
+          border-color: black;
+          border-radius: 0pt 0pt 20pt 20pt;
+          text-align: right;
+         } 
+         
+#zahlavi p:first-child {
+            color: white;
+            font-size: 1em;
+            margin-left: 40px;
+            height: 2em;  
+            width: 10em;
+            float: left; 
+            text-align: left;     
+           } 
+           
+#zahlavi a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+           }    
+       
+
+
+#pozadi {
+         background-image: url('img/baner3.jpg');
+         background-repeat: no-repeat;
+         background-position: bottom;
+         display: block;
+         height: 219px;
+         border: 0px;
+         border-radius: 20pt 20pt 0pt 0pt;
+        }
+
+#logo_obal {
+            position: relative;
+           }                   
+             
+#logo {
+       background-image: url('img/logo.jpg');
+       height: 75px;
+       width: 85px;
+       background-repeat: no-repeat;
+       padding-top: 40px;
+       padding-left: 90px;
+       padding-right: 0px;
+       padding-bottom: 50px;
+       position: absolute;
+       top: 130px;
+       left: 35px;
+       border: 5px;
+       border-radius: 30pt 30pt;
+       border-color: black;
+       border-style: solid;
+      }
+     
+
+#rozmery_banner {
+                 width: 960px;
+                 height: 300px;
+                }        
+      
+#menu a { 
+         text-decoration: none;
+         color: white;
+         font-weight: bold;
+        }
+
+#menu a:hover, #menu2 a:hover {
+                               text-decoration: underline;
+                              }
+#menu a:active, #menu2 a:active {
+                                 color: red;
+                                }
+               
+#menu a:visited, #menu2 a:visited {
+                                   text-decoration: underline;
+                                  }
+              
+#menu li {
+          display: inline;
+          margin-right: 1.8ex;
+         }  
+         
+#menu {
+       background-color: #005380;
+       margin: 0px;
+       padding-top: 1.2ex;
+       padding-bottom: 1.2ex;
+       padding-left: 0px;
+       text-align: right;
+      } 
+            
+      
+#menu2 a {
+          font-size: 10.5pt; 
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+         }
+              
+#menu2 li {
+           display: inline;
+           margin-right: 1.5ex;
+          }       
+
+#menu2 {
+        background-color: #A7A7A7;
+        margin: 0px;
+        padding-top: 1.2ex;
+        padding-bottom: 1.2ex;
+        padding-left: 0px;
+        text-align: right;
+       }
+      
+#posledni_odkaz1 {
+                  margin-right: 9em;
+                 }
+                
+#posledni_odkaz2 {
+                  margin-right: 6.7em;
+                 }
+ 
+#posledni_odkaz3 {
+                  margin-right: 5.5em;
+                 } 
+                 
+#text {
+       margin-top: 6em;
+       margin-bottom: 4em;
+      }
+      
+#text p {
+         margin-top: 4em;
+         margin-right: 40px;
+         margin-left: 40px;
+         text-align: justify;
+         text-indent: 1.2em;
+        }
+
+#obr1 {
+       margin-left: 25px;
+       margin-right: 25px;
+       margin-bottom: 15px;
+       float: left;
+       border: 0px;
+       border-radius: 10pt 10pt;
+      } 
+      
+.obr2 {
+       margin-left: 25px;
+       margin-right: 25px;
+       margin-top: 0px;
+       margin-bottom: 15px;
+       float: left;
+       border: 3px;
+       border-radius: 10pt 10pt;
+       border-color: black;
+       border-style: solid;
+      } 
+
+h2 {
+    text-align: center;
+    margin-top: 2em;
+   }
+      
+#tabulka {
+          border: 4px;
+          border-color: #39A7E2;
+          border-style: dotted;
+          margin-left: 40px;
+          margin-right: 40px;
+          margin-bottom: 35px;
+          margin-top: 30px;
+         }
+
+#tabulka td {
+             border: 4px;
+             border-color: #39A7E2;
+             border-style: dotted;
+            }
+           
+#tabulka p {
+            text-align: justify;
+            margin-left: 2ex;
+            margin-right: 2ex;
+            margin-top: 1.5ex;
+            margin-bottom: 1.5ex; 
+           }
+           
+#tabulka img, .tab_nabidka img {
+                                margin: 20px;
+                                border: 2px;
+                                border-radius: 25pt 25pt;
+                                border-color: black;
+                                border-style: solid;
+                               } 
+
+.tab_nabidka td, .tab_nabidka th {
+                                  border: 2px;
+                                  border-color: #39A7E2;
+                                  border-style: solid;
+                                  text-align: center;
+                                 }
+                              
+.zelena_nabidka {
+                 background-color: rgb(102,204,51);
+                }
+                
+.modra_nabidka {
+                background-color: rgb(51,102,255);
+               }
+               
+.cervena_nabidka { 
+                  background-color: rgb(255,0,0);
+                 }
+
+.tab_nabidka {
+              border: 2px;
+              border-color: #39A7E2;
+              border-style: solid;
+              margin-left: 40px;
+              margin-right: 40px;
+              margin-bottom: 100px;
+              margin-top: 30px;
+             }
+             
+#mapa {
+       border: 4px;
+       border-color: #39A7E2;
+       border-style: dotted;
+       margin-top: 25px;
+      }
+
+#sidlo_spolecnosti dt {
+                       font-size: 2.4ex;
+                       color: red;
+                       font-weight: bolder;
+                       margin-bottom: 1ex;
+                      }
+                      
+#sidlo_spolecnosti dd {
+                       font-size: 2ex;
+                      }
+                      
+#sidlo_spolecnosti dl {
+                       margin-top: 0px;
+                      }                   
+                      
+#sidlo_spolecnosti {
+                    float: left;
+                    width: 47%;       
+                    margin-left: 25px;
+                    margin-top: 2.5em; 
+                   } 
+                   
+#sidlo_spolecnosti2 {
+                     float: right;
+                     width: 47%;
+                     margin-right: 25px;
+                     margin-top: 2.5em;
+                    }
+                    
+#sidlo_spolecnosti2 dt {
+                        font-size: 2.4ex;
+                        color: red;
+                        font-weight: bolder; 
+                        margin-bottom: 1ex;
+                       }
+                      
+#sidlo_spolecnosti2 dd {
+                        font-size: 2ex;
+                       }
+                      
+#sidlo_spolecnosti2 dl {
+                        margin-top: 0px;
+                       } 
+                    
+#sidlo_spolecnosti p {
+                      margin-top: 130px;
+                      margin-left: 20px;
+                      text-indent: 1.2em;
+                     }
+                     
+#sidlo_spolecnosti2 p {
+                       margin-top: 80px;
+                       margin-left: 20px;
+                       text-indent: 1.2em;
+                      }                     
+                     
+.obr3 {
+       margin-left: 20px;
+       margin-right: 25px;
+       margin-top: 0px;
+       margin-bottom: 15px;
+       float: left;
+       border: 3px;
+       border-radius: 15pt 15pt;
+       border-color: black;
+       border-style: solid;
+      }   
+      
+.tab_nabidka p {
+                text-align: justify;
+                margin-left: 2ex;
+                margin-right: 2ex;
+                margin-top: 1.5ex;
+                margin-bottom: 1.5ex; 
+               }
+
+#text_kontakty {
+                float: left;
+                width: 50%;       
+                margin-left: 20px;
+                margin-top: 2.5em;
+                margin-right: 25px;
+               }     
+               
+#text_kontakty dt {
+                   font-size: 2.4ex;
+                   color: red;
+                   font-weight: bolder;
+                   margin-bottom: 1ex;
+                  }
+                  
+#text_kontakty dd {
+                   font-size: 2ex;
+                  }         
+                  
+#text_kontakty dl {
+                   margin-top: 0px;
+                  }
+                  
+#text_kontakty p {
+                  margin-top: 80px;
+                  margin-left: 20px;
+                  text-indent: 1.2em;
+                 } 
+                 
+#mapa_webu {
+            display: block;
+            margin-top: 6em;
+            margin-left: 100px;
+            width: 10em;
+            font-size: 1em;
+           }                 
+
+#mapa_webu a {
+              color: black;
+              text-decoration: none;
+              font-weight: bold;
+             }
+                 
+#mapa_webu a:hover {
+                    text-decoration: underline;
+                   }
+                   
+#mapa_webu a:active {
+                     color: red;
+                    }
+               
+#mapa_webu a:visited {
+                      text-decoration: underline;
+                     }
+                     
+#odkaz_web {
+            margin-right: 6ex;
+           }
+           
+h4 {
+    color: red;
+    text-align: center;
+   }  
+   
+#text_uvod2 {
+            float: left;
+            width: 45%;
+            text-align: justify;
+            margin-left: 25px;
+            margin-right: 30px; 
+            text-indent: 1.2em;
+           }
+           
+#accordion {
+            float: right;
+            display: block;
+            width: 45%;
+            margin-right: 25px;
+            margin-top: 12px;
+            text-indent: 1.2em;
+            font-size: 1.6ex;
+           }
+           
+#uvod {
+       margin-top: 7em;
+      }
+
+ 
+#obtekani {
+           clear: both;
+          }
